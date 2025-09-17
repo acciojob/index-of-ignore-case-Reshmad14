@@ -3,6 +3,7 @@ function indexOfIgnoreCase(s1, s2) {
 	const lowerStr = s1.toLowerCase();
     const lowerSubStr = s2.toLowerCase();
     // Use built-in indexOf method
+	
     return lowerStr.indexOf(lowerSubStr);
 }
 
